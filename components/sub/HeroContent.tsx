@@ -36,7 +36,7 @@ const HeroContent = () => {
                     className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
                 >
                     <span className="text-sm md:text-base lg:text-lg xl:text-xl">
-                        Hi, I'm {" "}
+                        Hi, I&apos;m {" "}
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                             Dhaya. 
                         </span>{" "}
@@ -58,7 +58,7 @@ const HeroContent = () => {
                     whileHover={textHoverEffect}
                     className="text-lg text-gray-400 my-5 max-w-[600px]"
                 >
-                    I'm a skilled Full-Stack Developer with Master's in Computer Science from SUNY Buffalo, adept in engineering scalable and robust software applications. My three years of software development experience have been focused on crafting and fine-tuning software that meets the complex needs of modern enterprises.
+                    I&apos;m a skilled Full-Stack Developer with Master&apos;s in Computer Science from SUNY Buffalo, adept in engineering scalable and robust software applications. My three years of software development experience have been focused on crafting and fine-tuning software that meets the complex needs of modern enterprises.
                 </motion.p>
             </div>
 
