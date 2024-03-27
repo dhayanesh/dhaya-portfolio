@@ -8,13 +8,13 @@ const Footer = () => {
             <div className="w-full flex flex-col items-center justify-center m-auto">
                 <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                        <a href="https://github.com/yourGithubUsername" className="flex flex-row items-center my-[15px] cursor-pointer">
+                        <a href="https://github.com/dhayanesh" className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxGithubLogo />
                             <span className="text-[15px] ml-[6px]">Github</span>
                         </a>
                     </div>
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                        <a href="https://www.linkedin.com/in/yourLinkedinUsername" className="flex flex-row items-center my-[15px] cursor-pointer">
+                        <a href="https://www.linkedin.com/in/dhayaneshwar/" className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxLinkedinLogo />
                             <span className="text-[15px] ml-[6px]">Linkedin</span>
                         </a>
