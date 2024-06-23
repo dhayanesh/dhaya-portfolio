@@ -3,7 +3,7 @@ import '../../app/globals.css';
 
 
 const ActionButtons = () => {
-  const url = 'https://dhaya-portfolio.vercel.app/';
+  const url = 'https://drive.google.com/file/d/1co5D82MwzOjWudEX4rEkYvb_fJW-aK-1/view?usp=drive_link';
   const pdfDownloadUrl = '/Dhaya_Resume.pdf';
 
   return (
@@ -16,10 +16,10 @@ const ActionButtons = () => {
 
         <div style={{ display: 'flex', justifyContent: 'center', gap: '100px', margin: '90px'}}>
           <a href={url} target="_blank" rel="noopener noreferrer">
-            <button className="button-85" role="button">View</button>
+            <button className="button-85" role="button" disabled>View</button>
           </a>
           <a href={pdfDownloadUrl} download>
-            <button className="button-85" role="button">Download</button>
+            <button className="button-85" role="button" disabled>Download</button>
           </a>
         </div>
       </div>
