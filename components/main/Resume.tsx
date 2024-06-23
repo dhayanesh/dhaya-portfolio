@@ -3,7 +3,7 @@ import '../../app/globals.css';
 
 
 const ActionButtons = () => {
-  const url = 'https://drive.google.com/file/d/1K-lrRsATEjP00nmcAIWpgbozKZtG5280/view?usp=drive_link';
+  const url = 'https://dhaya-portfolio.vercel.app/';
   const pdfDownloadUrl = '/Dhaya_Resume.pdf';
 
   return (
